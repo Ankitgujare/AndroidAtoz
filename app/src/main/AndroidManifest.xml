@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AcitivityLifeCycle">
         <activity
+            android:name="._02navigationbasics.xmlway.ActivityB"
+            android:exported="false" />
+        <activity
+            android:name="._02navigationbasics.xmlway.ActivityA"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
